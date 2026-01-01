@@ -1,5 +1,5 @@
 license {
-    header file('header')
+    header file('LICENSE.md')
     include "**/*.java"
     ignoreFailures true
 }
