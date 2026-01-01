@@ -1,0 +1,17 @@
+license {
+    header file('header')
+    include "**/*.java"
+    ignoreFailures true
+}
+
+tasks.named("checkLicenseMcLauncher") {
+    enabled = false
+}
+
+tasks.named("checkLicensePatchedMc") {
+    enabled = false
+}
+
+tasks.named("checkLicenseInjectedTags") {
+    enabled = false
+}
